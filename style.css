@@ -194,3 +194,43 @@ color: lime;
 
 
 /*<!--End  Our Class -->*/
+/*<!--Start  registration -->*/
+.registration img{
+    width: 100%;
+
+}
+.text-style{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+.text-style p{
+    color: orange;
+}
+
+.text-style button{
+    border: orange 3px solid;
+    color: orchid;
+}
+
+.text-style button:hover{
+    border: orchid 3px solid;
+    color: white;
+    background-color: orange;
+    transition: all ease-in-out 2s;
+    -webkit-transition: all ease-in-out 2s;
+    -moz-transition: all ease-in-out 2s;
+    -ms-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
+}
+/*<!--End  registration -->*/
