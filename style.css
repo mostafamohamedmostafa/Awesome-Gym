@@ -273,10 +273,10 @@ h5 {
     border-bottom-color: violet;
     border-right-color: yellow;
     border-radius: 130px 0px 180px 0px;
-    -moz-border-radius: 130px 0px 180px 0px;
-    -webkit-border-radius: 130px 0px 180px 0px;
-    -ms-border-radius: 130px 0px 180px 0px;
-    -o-border-radius: 130px 0px 180px 0px;
+    -moz-border-radius:;
+    -webkit-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .pricing-box p {
@@ -292,8 +292,10 @@ h5 {
     border: fuchsia 3px solid;
     color: orchid;
     border-radius: 131px 0px 181px 0px;
--moz-border-radius: 131px 0px 181px 0px;
--webkit-border-radius: 131px 0px 181px 0px;
+    -moz-border-radius:;
+    -webkit-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .pricing-box button:hover {
@@ -347,5 +349,156 @@ h5 {
  -o-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
 }
 /*<!--End  gallery -->*/
+/*<!--Start  Team -->*/
+.team{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.team h4{
+    color: orangered;
+    font-size: 1.8rem;
+}
+.team button{
+    border: orange 3px solid;
+    color: orchid; 
+}
+
+.team button:hover{
+    border: orchid 3px solid;
+    color: white;
+    background-color: orange;
+    transition: all  cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+    -webkit-transition: all  cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+    -moz-transition: all  cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+    -ms-transition: all  cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+    -o-transition: all  cubic-bezier(0.785, 0.135, 0.15, 0.86) 2s;
+}
+
+.card-body{
+    background-color: black;
+}
+.card:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    animation: shadow-wave 2s ease infinite;
+    -webkit-animation: shadow-wave 2s ease infinite;
+}
+
+@keyframes shadow-wave {
+    0% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green), 20px -20px 0 -3px var(--background), 20px -20px var(--yellow), 30px -30px 0 -3px var(--background), 30px -30px var(--orange), 40px -40px 0 -3px var(--background), 40px -40px var(--red);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    20% {
+        border: 3px solid var(--red);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--primary),
+            20px -20px 0 -3px var(--background), 20px -20px var(--green),
+            30px -30px 0 -3px var(--background), 30px -30px var(--yellow),
+            40px -40px 0 -3px var(--background), 40px -40px var(--orange);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    40% {
+        border: 3px solid var(--orange);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--red),
+            20px -20px 0 -3px var(--background), 20px -20px var(--primary),
+            30px -30px 0 -3px var(--background), 30px -30px var(--green),
+            40px -40px 0 -3px var(--background), 40px -40px var(--yellow);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    60% {
+        border: 3px solid var(--yellow);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--orange),
+            20px -20px 0 -3px var(--background), 20px -20px var(--red),
+            30px -30px 0 -3px var(--background), 30px -30px var(--primary),
+            40px -40px 0 -3px var(--background), 40px -40px var(--green);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    80% {
+        border: 3px solid var(--green);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--yellow),
+            20px -20px 0 -3px var(--background), 20px -20px var(--orange),
+            30px -30px 0 -3px var(--background), 30px -30px var(--red),
+            40px -40px 0 -3px var(--background), 40px -40px var(--primary);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+    100% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+            20px -20px 0 -3px var(--background), 20px -20px var(--yellow),
+            30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+            40px -40px 0 -3px var(--background), 40px -40px var(--red);
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+    }
+
+}
+
+.card {
+    margin-bottom: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
+
+
+}
+
+
+.card h5 {
+   
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+.team .card  .card-body a {
+    color: #ed1d24;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 2rem;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ed1d24;
+    -moz-text-decoration-color:;
+    cursor: pointer;
+}
+.card-text{
+    color:purple;
+}
+/*<!--End  Team -->*/
 
 
