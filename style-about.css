@@ -76,8 +76,8 @@ i {
 
 .carousel-item p {
     position: absolute;
-    left: 10%;
-    top: 40%;
+    left: 40%;
+    top: 50%;
     transform: translate(-00%, -40%);
     color: white;
     font-size: 4rem;
@@ -150,51 +150,52 @@ i {
 
 /*<!--End Why US -->*/
 
-/*<!--Start Our Class -->*/
-
-.our-class {
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    background-color: rgb(24, 23, 23);
-}
+/*<!--Start Whyus Section -->*/
 
 
-.our-class h3 {
-    color: orange;
-    text-align: center;
-}
 
-.our-class h1 {
-    text-align: center;
-}
-
-.our-class-box .inner-box {
-    height: 20vh;
+.why-us-style {
     background-color: black;
-    border-top: 3px solid lawngreen;
-    border-bottom: 3px solid lightseagreen;
+    padding: 25px;
 
 }
 
-.inner-box {
-    padding: 10px;
+.why-us-style h4 {
+    color: yellow;
 }
 
-.inner-box h6 {
-    color: orange;
+.why-us-style h3 {
+    font-size: xx-large;
+    color: white;
 }
 
-.inner-box a {
-    float: right;
-    font-size: 2rem;
+.why-us-style p {
+    font-size: large;
+    color: #88a5b1;
 }
 
-.inner-box a i {
-    color: lime;
+.why-us-style a {
+    background-color: #ed1d24;
+    border: #ed1d24 3px solid;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 10px;
 }
 
+.progress {
+    margin-bottom: 25px;
+}
 
-/*<!--End  Our Class -->*/
+.why-us-style a:hover {
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+/*<!--End Whyus Section -->*/
+
+
 /*<!--Start  registration -->*/
 .registration img {
     width: 100%;
@@ -244,114 +245,8 @@ i {
 
 /*<!--End  registration -->*/
 
-/*<!--Start  Pricing -->*/
-.pricing {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    text-align: center;
-}
 
-.pricing h3,
-h5 {
-    color: orange;
-}
 
-.pricing h2 {
-    color: blue;
-}
-
-.pricing span {
-    color: orchid;
-}
-
-.pricing-box {
-    border: 1px solid;
-    margin-top: 15px;
-    text-align: center;
-    border-left-color: springgreen;
-    border-top-color: steelblue;
-    border-bottom-color: violet;
-    border-right-color: yellow;
-    border-radius: 130px 0px 180px 0px;
-    -moz-border-radius: ;
-    -webkit-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
-}
-
-.pricing-box p {
-    color: chartreuse;
-}
-
-.pricing-box .list-item {
-    list-style: none;
-    margin: 2px;
-}
-
-.pricing-box button {
-    border: fuchsia 3px solid;
-    color: orchid;
-    border-radius: 131px 0px 181px 0px;
-    -moz-border-radius: ;
-    -webkit-border-radius: ;
-    -ms-border-radius: ;
-    -o-border-radius: ;
-}
-
-.pricing-box button:hover {
-    border: orchid 3px solid;
-    color: white;
-    background-color: orange;
-    transition: all ease-in-out 2s;
-    -webkit-transition: all ease-in-out 2s;
-    -moz-transition: all ease-in-out 2s;
-    -ms-transition: all ease-in-out 2s;
-    -o-transition: all ease-in-out 2s;
-}
-
-/*<!--End  Pricing -->*/
-/*<!--Start  gallery -->*/
-.gallery {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-
-.gallery h3 {
-    color: orangered;
-    text-align: center;
-}
-
-.gallery img {
-    width: 100%;
-    height: 100%;
-    margin: 10px;
-    padding: 5px;
-}
-
-.gallery img:hover {
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    border: 1px solid;
-    border-left-color: springgreen;
-    border-top-color: steelblue;
-    border-bottom-color: violet;
-    border-right-color: yellow;
-    border-radius: 130px 0px 180px 0px;
-    -moz-border-radius: 130px 0px 180px 0px;
-    -webkit-border-radius: 130px 0px 180px 0px;
-    -ms-border-radius: 130px 0px 180px 0px;
-    -o-border-radius: 130px 0px 180px 0px;
-    transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -webkit-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -moz-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -ms-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-    -o-transition: all cubic-bezier(0.6, -0.28, 0.735, 0.045) 2s;
-}
-
-/*<!--End  gallery -->*/
 /*<!--Start  Team -->*/
 .team {
     margin-top: 5vh;
@@ -527,13 +422,13 @@ h5 {
 /*<!--End  Contact -->*/
 
 /*<!--Start  Footer -->*/
-.footer-web {
+.footer-web{
     text-align: center;
 }
-
 .footer-web i {
     color: orange;
     margin: 10px;
+    text-align: center;
 }
 
 .footer-list ul {
