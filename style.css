@@ -499,6 +499,22 @@ h5 {
 .card-text{
     color:purple;
 }
+.team i{
+    color: palegreen;
+}
 /*<!--End  Team -->*/
+/*<!--Strat  Contact -->*/
+
+.contact i{
+    color: orangered;
+  font-size: 1.7rem;
+}
+.contact p{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+/*<!--End  Contact -->*/
 
 
